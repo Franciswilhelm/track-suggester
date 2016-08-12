@@ -12,13 +12,16 @@
     <div class="container">
      <h1>What programming language is best for you?</h1>
       <form id="survey">
-       <p>When were you born?</p>
+        <div class="form-group">
+              <label for="person1">Enter your name</label>
+              <input id="person1" class="form-control" type="text">
+        </div>
          <div class="form-group">
            <label for="born">Date of birth:</label>
            <input id="born" class="form-control" type="date">
          </div>
           <div class="radio">
-             <p>Who would you rather work for?</p>
+            <p>Who would you rather work for?</p>
               <label>
                 <input type="radio" name="company" value="big" checked>
                 Big Business who wants internal software
@@ -43,7 +46,7 @@
               </label>
           </div>
           <div class="radio">
-             <p>What is your favorite letter?</p>
+            <p>What is your favorite letter?</p>
               <label>
                 <input type="radio" name="letter" value="c" checked>
                 C
@@ -68,7 +71,7 @@
               </label>
           </div>
           <div class="radio">
-             <p>What do you like better?</p>
+            <p>What do you like better?</p>
               <label>
                 <input type="radio" name="device" value="software" checked>
                 Business Software
@@ -93,7 +96,7 @@
               </label>
           </div>
           <div class="radio">
-             <p>What style do you like best?</p>
+            <p>What style do you like best?</p>
               <label>
                 <input type="radio" name="clothes" value="business" checked>
                 Business
@@ -112,9 +115,11 @@
               </label>
           </div>
           <button type="submit" class="btn">Tell me what track to learn!</button>
-      </form>
+        </form>
+      <div class="jumbotron">
       <div id="output">
-
+          
+      </div>
       </div>
     </div>
   </body>
