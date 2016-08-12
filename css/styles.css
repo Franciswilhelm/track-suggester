@@ -13,3 +13,7 @@ p {
 label {
   color: green;
 }
+
+.output {
+  font-size: 50px;
+}
